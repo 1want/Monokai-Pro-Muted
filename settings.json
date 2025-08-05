@@ -1,0 +1,70 @@
+{
+  "editor.tokenColorCustomizations": {
+    "[Monokai Pro]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "entity.name.tag",
+            "keyword",
+            "storage",
+            "punctuation.definition.string.template.begin",
+            "punctuation.definition.string.template.end",
+            "source.yaml meta.mapping.key string"
+          ],
+          "settings": {
+            "foreground": "#e54d73"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.function",
+            "entity.name.function.templated",
+            "entity.name.function.member.static",
+            "support.function",
+            "variable.function",
+            "meta.instance.constructor",
+            "support.macro",
+            "meta.function-call.generic.python",
+            "support.function.builtin.python",
+            "entity.name",
+            "entity.other.attribute-name.class.css",
+            "entity.other.attribute-name.parent-selector-suffix.css",
+            "entity.other.attribute-name.css",
+            "entity.other.animation-name.css",
+            "meta.attribute-with-value.class string",
+            "meta.attribute.class.html string",
+            "markup.underline.link",
+            "markup.inserted",
+            "string.other.ref",
+            "source.jinja2 variable.other.jinja2.block"
+          ],
+          "settings": {
+            "foreground": "#98c775"
+          }
+        },
+        {
+          "scope": [
+            "variable",
+            "variable.other",
+            "variable.other.readwrite",
+            "variable.other.member",
+            "variable.other.property",
+            "variable.other.property.static",
+            "variable.other.event",
+            "meta.object.member",
+            "support.type.property-name",
+            "source.json meta.mapping.key string",
+            "meta.function-call.python meta.function-call.arguments.python",
+            "constant.other",
+            "string.unquoted.label",
+            "string source",
+            "text"
+          ],
+          "settings": {
+            "foreground": "#d5d5d5"
+          }
+        }
+      ]
+    }
+  }
+}
