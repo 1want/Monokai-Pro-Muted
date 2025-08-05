@@ -5,15 +5,49 @@
         {
           "scope": [
             "entity.name.tag",
+            "entity.name.tag.js.jsx support.class.component.js.jsx",
+            "entity.name.tag support.class.component",
+            "source.vue support.class.component"
+          ],
+          "settings": { "foreground": "#e86c76" }
+        },
+        {
+          "scope": [
             "keyword",
-            "storage",
+            "keyword.control",
+            "keyword.control.directive",
+            "keyword.operator",
+            "keyword.operator.member",
+            "keyword.operator.new"
+          ],
+          "settings": { "foreground": "#e86c76" }
+        },
+        {
+          "scope": ["keyword.other.template.begin", "keyword.other.template.end"],
+          "settings": { "foreground": "#e86c76" }
+        },
+        {
+          "scope": [
+            "punctuation.template-string.element.begin",
+            "punctuation.template-string.element.end",
             "punctuation.definition.string.template.begin",
             "punctuation.definition.string.template.end",
-            "source.yaml meta.mapping.key string"
+            "string.quoted.template punctuation.definition.string.begin",
+            "string.quoted.template punctuation.definition.string.end",
+            "punctuation.definition.template-expression.begin",
+            "punctuation.definition.template-expression.end"
           ],
-          "settings": {
-            "foreground": "#e54d73"
-          }
+          "settings": { "foreground": "#e86c76" }
+        },
+        {
+          "scope": [
+            "storage",
+            "storage.type.extends",
+            "storage.type.function.arrow",
+            "storage.modifier",
+            "storage.type.modifier"
+          ],
+          "settings": { "foreground": "#e86c76" }
         },
         {
           "scope": [
@@ -61,7 +95,7 @@
             "text"
           ],
           "settings": {
-            "foreground": "#d5d5d5"
+            "foreground": "#d3d3d3"
           }
         }
       ]
