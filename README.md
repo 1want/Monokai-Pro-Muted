@@ -17,5 +17,5 @@
 
 ## 预览
 
-![screenshot](image.png)
-![screenshot](image-1.png)
+![vue](image-1.png)
+![js](image-2.png)
